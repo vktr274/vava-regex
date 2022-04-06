@@ -26,10 +26,10 @@ public class FXMLController implements Initializable {
         Pattern pattern = Pattern.compile(textField.getText());
         if (pattern.matcher(textArea.getText()).find()) {
             result.setTextFill(Color.GREEN);
-            result.setText("Match found!");
+            result.setText("OK");
         } else {
             result.setTextFill(Color.RED);
-            result.setText("Match NOT found!");
+            result.setText("NG");
         }
     }
 
