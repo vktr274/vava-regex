@@ -17,7 +17,7 @@
     <center>
         <VBox alignment="CENTER">
             <padding>
-                <Insets bottom="16.0" left="16.0" right="16.0" top="16.0"/>
+                <Insets bottom="16.0" left="128.0" right="128.0" top="16.0"/>
             </padding>
             <Label fx:id="areaLabel"/>
             <TextArea fx:id="textArea"/>
