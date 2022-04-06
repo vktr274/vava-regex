@@ -4,7 +4,7 @@ Author: Viktor Modroczký
 
 ## Build and Run
 
-Build and run with Windows cm
+Build and run with Windows CMD
 ```shell
 gradlew run
 ```
